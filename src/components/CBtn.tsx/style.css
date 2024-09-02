@@ -1,0 +1,23 @@
+.btn-container {
+  display: flex;
+  font-weight: 700;
+  box-shadow: black 5px 5px;
+  width: 80px;
+  height: 29px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.delete {
+  display: flex;
+  background-color: #ff9900;
+  text-transform: capitalize;
+  border: 2px solid black;
+  align-self: flex-end;
+}
+.add,
+.save {
+  background-color: #b6d7a8;
+  text-transform: capitalize;
+  border: 2px solid black;
+}

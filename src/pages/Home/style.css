@@ -1,0 +1,23 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: baseline;
+}
+.body-main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 10px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

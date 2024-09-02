@@ -1,0 +1,30 @@
+.box {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  height: 80px;
+}
+.image-and-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: inherit;
+  align-items: center;
+}
+.image-and-details-container > img {
+  height: inherit;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.bold-18 {
+  font-weight: 600;
+  text-align: left;
+  font-size: 18px;
+}
+.reg-14 {
+  font-size: 14px;
+}
